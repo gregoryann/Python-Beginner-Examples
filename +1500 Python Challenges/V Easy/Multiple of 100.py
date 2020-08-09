@@ -38,14 +38,19 @@ Solution 2
 """
 
 
-
+def divisible(num):
+  return num % 100 == 0
 
 
 """
 Solution 3
 """
 
-
+def divisible(num):
+	if num%100 == 0:
+		return True
+	else:
+		return False
 
 
 
@@ -53,7 +58,8 @@ Solution 3
 Solution 4
 """
 
-
+def divisible(num):
+	return ((num % 100) == 0)
 
 
 
