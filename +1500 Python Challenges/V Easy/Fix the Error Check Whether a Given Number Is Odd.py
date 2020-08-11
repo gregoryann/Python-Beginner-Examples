@@ -26,7 +26,8 @@ All the inputs will only be integers.
 Solution 1
 """
 
-
+def is_odd(num):
+  return num % 2
 
 
 
@@ -36,6 +37,8 @@ Solution 1
 Solution 2
 """
 
+def is_odd(num):
+  return num % 2 == 1
 
 
 
@@ -44,7 +47,7 @@ Solution 2
 Solution 3
 """
 
-
+is_odd = lambda n: bool(n % 2)
 
 
 
