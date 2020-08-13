@@ -28,7 +28,8 @@ Solution 1
 """
 
 
-
+def num_to_dashes(num):
+	return "-" * num
 
 
 
@@ -37,7 +38,13 @@ Solution 1
 Solution 2
 """
 
-
+def num_to_dashes(num):
+	dashes = ''
+	counter = 0
+	while counter < num:
+		dashes += '-'
+		counter += 1
+	return dashes
 
 
 
@@ -45,7 +52,10 @@ Solution 2
 Solution 3
 """
 
-
+def num_to_dashes(num):
+	output = ''
+	output = num * '-'
+	return output
 
 
 
@@ -56,5 +66,7 @@ Solution 4
 
 
 
-
+def num_to_dashes(num):
+  x = '-'
+  return num * x
 

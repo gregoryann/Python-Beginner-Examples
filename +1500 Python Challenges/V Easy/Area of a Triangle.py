@@ -28,7 +28,8 @@ Solution 1
 """
 
 
-
+def tri_area(base, height):
+	return base * height * .5
 
 
 
@@ -38,14 +39,17 @@ Solution 2
 """
 
 
-
+def tri_area(base, height):
+	return (base * height) / 2
 
 
 """
 Solution 3
 """
 
-
+def tri_area(base, height):
+	return (base*height)/2
+tri_area(3,2)
 
 
 
@@ -53,6 +57,9 @@ Solution 3
 Solution 4
 """
 
+def tri_area(base, height):
+		tri_area = (base * height) / 2
+		return tri_area
 
 
 
