@@ -27,7 +27,8 @@ Solution 1
 """
 
 
-
+def area_shape(b,h,f):
+	return b*h*0.5 if f=='triangle' else b*h
 
 
 
@@ -36,13 +37,21 @@ Solution 1
 Solution 2
 """
 
-
+area_shape=lambda a,b,c:a*b/2if"t"in c else a*b
 
 
 
 """
 Solution 3
 """
+
+def area_shape(base, height, shape):
+	if shape=="triangle":
+		return (base*height)/2
+	elif shape=="parallelogram":
+		return base*height
+	else:
+		return False
 
 
 
@@ -54,6 +63,10 @@ Solution 4
 
 
 
-
+def area_shape(base, height, shape):
+	if shape == 'triangle':
+		return 0.5 * base * height
+	else:
+		return base * height
 
 
