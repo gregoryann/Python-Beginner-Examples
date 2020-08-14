@@ -27,7 +27,8 @@ Notes
 Solution 1
 """
 
-
+def flip_bool(b):
+	return not b
 
 
 
@@ -37,7 +38,7 @@ Solution 1
 Solution 2
 """
 
-
+flip_bool=lambda b:not b
 
 
 
@@ -45,7 +46,8 @@ Solution 2
 Solution 3
 """
 
-
+def long_burp(num):
+    return "Bu"+(num * "r")+"p"
 
 
 
@@ -53,8 +55,28 @@ Solution 3
 Solution 4
 """
 
+def flip_bool(b):
+    if b:
+		    return 0
+    return 1
+
+
+
+
+def flip_bool(b):
+	return b == False
 
 
 
 
 
+def flip_bool(b):
+	if b == True:
+	 return 0
+	else:
+	 return 1
+
+
+
+def flip_bool(b):
+	return 1 if b == (False or 0) else 0

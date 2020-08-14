@@ -26,7 +26,8 @@ Don't forget to return the result.
 Solution 1
 """
 
-
+def long_burp(num):
+	return "Bu{}p".format("r" * num)
 
 
 
@@ -36,7 +37,7 @@ Solution 1
 Solution 2
 """
 
-
+long_burp = lambda x: 'Bu{}p'.format('r'*x)
 
 
 
@@ -44,7 +45,7 @@ Solution 2
 Solution 3
 """
 
-
+long_burp=lambda n:'Bu'+'r'*n+'p'
 
 
 
