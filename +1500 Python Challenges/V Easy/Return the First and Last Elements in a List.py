@@ -26,7 +26,8 @@ If you're really stuck, unlock solutions in the Solutions tab.
 Solution 1
 """
 
-
+def first_last(lst):
+	return [lst[0], lst[-1]]
 
 
 
@@ -37,7 +38,9 @@ Solution 2
 """
 
 
-
+def first_last(lst):
+	del lst[1:-1]
+	return lst
 
 
 """
@@ -45,12 +48,30 @@ Solution 3
 """
 
 
-
+def first_last(lst):
+	result = [lst[0], lst.pop()]
+	return result
 
 
 """
 Solution 4
 """
+
+def first_last(lst):
+	retnList=[]
+	retnList.append(lst[0])
+	retnList.append(lst[-1])
+	return retnList
+
+
+
+def first_last(lst):
+	x = lst[0]
+	y = lst[-1]
+	lst2 = [x,y]
+	return lst2
+
+
 
 
 

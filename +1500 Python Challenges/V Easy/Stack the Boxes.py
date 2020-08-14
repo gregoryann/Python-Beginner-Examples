@@ -29,7 +29,8 @@ Solution 1
 """
 
 
-
+def stack_boxes(n):
+	return n ** 2
 
 
 
@@ -38,7 +39,7 @@ Solution 1
 Solution 2
 """
 
-
+stack_boxes = lambda x: x**2
 
 
 
@@ -46,6 +47,9 @@ Solution 2
 Solution 3
 """
 
+
+def stack_boxes(n):
+	return n * n
 
 
 
