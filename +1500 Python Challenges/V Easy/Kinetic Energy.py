@@ -33,7 +33,8 @@ Solution 1
 
 
 
-
+def calc_kinetic_energy(m, v):
+		return round(0.5 * (m*v**2))
 
 
 
@@ -41,15 +42,16 @@ Solution 1
 Solution 2
 """
 
-
-
+calc_kinetic_energy = lambda m, v: round((1/2) * m * (v**2))
 
 
 """
 Solution 3
 """
 
-
+def calc_kinetic_energy(m, v):
+	ke = 0.5*m*(v*v)
+	return round(ke)
 
 
 
@@ -59,6 +61,18 @@ Solution 4
 
 
 
+def calc_kinetic_energy(m, v):
+	ke = 0.5 * m * v**2
+	return (int(ke) + (ke % 1 >= 0.5))
 
 
 
+
+def calc_kinetic_energy(m, v): return round(0.5*m*v**2)
+
+
+
+
+def calc_kinetic_energy(m, v):
+	ans = 0.5 * m * (v ** 2)
+	return int(round(ans))

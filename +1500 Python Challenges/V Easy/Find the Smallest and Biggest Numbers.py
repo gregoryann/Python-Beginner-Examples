@@ -24,7 +24,11 @@ All test lists will have at least one element and are valid.
 Solution 1
 """
 
-
+def min_max(nums):
+  out = []
+  out.append(min(nums))
+  out.append(max(nums))
+  return out
 
 
 
@@ -33,6 +37,9 @@ Solution 1
 Solution 2
 """
 
+def min_max(nums):
+  sorted_nums = sorted(nums)
+  return [sorted_nums[0], sorted_nums[-1]]
 
 
 
@@ -40,12 +47,20 @@ Solution 2
 Solution 3
 """
 
-
+def min_max(nums):
+  return [min(nums), max(nums)]
 
 
 """
 Solution 4
 """
+
+
+def min_max(nums):
+  minmax_list = []
+  minmax_list.append(min(nums))
+  minmax_list.append(max(nums))
+  return minmax_list
 
 
 
