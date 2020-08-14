@@ -28,7 +28,8 @@ Solution 1
 """
 
 
-
+def distance_home(lst):
+	return abs(sum(lst))
 
 
 
@@ -37,7 +38,12 @@ Solution 1
 Solution 2
 """
 
-
+def distance_home(lst):
+	ans=0
+	for i in lst:
+		ans+=i
+	ans=abs(ans)
+	return ans
 
 
 
@@ -45,7 +51,11 @@ Solution 2
 Solution 3
 """
 
-
+def distance_home(lst):
+	distance = sum(lst)
+	if distance < 0:
+		distance = distance * (-1)
+	return distance
 
 
 
@@ -54,7 +64,20 @@ Solution 4
 """
 
 
+def distance_home(lst):
+ return abs(sum(i for i in lst))
 
 
 
+
+distance_home= lambda l: abs(sum(l))
+
+
+
+
+def distance_home(lst):
+	dist = 0
+	for i in lst:
+		dist += i
+	return(abs(dist))
 

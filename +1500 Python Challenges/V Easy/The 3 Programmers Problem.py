@@ -28,7 +28,8 @@ Solution 1
 
 
 
-
+def programmers(*args):
+	return max(args) - min(args)
 
 
 
@@ -36,7 +37,9 @@ Solution 1
 Solution 2
 """
 
-
+def programmers(one, two, three):
+	lst=[one,two,three]
+	return(max(lst)-min(lst))
 
 
 
@@ -44,7 +47,8 @@ Solution 2
 Solution 3
 """
 
-
+def programmers(one, two, three):
+	return max(one, two, three)-min(one, two, three)
 
 
 
@@ -52,6 +56,10 @@ Solution 3
 Solution 4
 """
 
+def programmers(one, two, three):
+	myDevs = [one, two, three]
+	myDevs.sort()
+	return myDevs[-1] - myDevs[0]
 
 
 

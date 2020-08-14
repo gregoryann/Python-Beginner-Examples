@@ -26,7 +26,7 @@ All values will be valid (so no dividing by zero).
 Solution 1
 """
 
-
+smash_factor=lambda a,b:round(a/b,2)
 
 
 
@@ -36,7 +36,8 @@ Solution 1
 Solution 2
 """
 
-
+def smash_factor(bs, cs):
+	return round(bs/cs,2)
 
 
 
@@ -45,7 +46,7 @@ Solution 3
 """
 
 
-
+smash_factor = lambda b, c: round(b/c, 2)
 
 
 """
