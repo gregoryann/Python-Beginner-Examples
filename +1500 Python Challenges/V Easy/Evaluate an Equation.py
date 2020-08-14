@@ -27,7 +27,8 @@ Solution 1
 """
 
 
-
+def eq(evaluate):
+    return eval(str(evaluate))
 
 
 
@@ -37,7 +38,9 @@ Solution 2
 """
 
 
-
+def equation(s):
+	a = eval(s)
+	return a
 
 
 """

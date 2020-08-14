@@ -24,7 +24,7 @@ Solution 1
 """
 
 
-
+equation=eval
 
 
 
@@ -34,14 +34,15 @@ Solution 2
 """
 
 
-
+equation=lambda a:eval(a)
 
 
 """
 Solution 3
 """
 
-
+def equation(s):
+	return eval(s)
 
 
 

@@ -25,7 +25,8 @@ The input is always a valid word.
 Solution 1
 """
 
-
+def new_word(word):
+	return word[1:]
 
 
 
@@ -35,21 +36,7 @@ Solution 1
 Solution 2
 """
 
-
-
-
-
-"""
-Solution 3
-"""
-
-
-
-
-
-"""
-Solution 4
-"""
+new_word = lambda w: w[1:]
 
 
 

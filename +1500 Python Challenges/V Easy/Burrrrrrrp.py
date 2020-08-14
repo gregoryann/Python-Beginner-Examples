@@ -49,11 +49,6 @@ long_burp=lambda n:'Bu'+'r'*n+'p'
 
 
 
-"""
-Solution 4
-"""
-
-
 
 
 
