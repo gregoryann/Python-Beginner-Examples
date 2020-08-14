@@ -28,7 +28,8 @@ Solution 1
 
 
 
-
+def is_last_character_n(word):
+	return word.endswith('n')
 
 
 
@@ -36,7 +37,8 @@ Solution 1
 Solution 2
 """
 
-
+def is_last_character_n(word):
+	return word[-1] == 'n'
 
 
 
@@ -45,13 +47,20 @@ Solution 3
 """
 
 
-
+def is_last_character_n(word):
+	return True if word[-1] == "n" else False
 
 
 """
 Solution 4
 """
 
+
+def is_last_character_n(word):
+    return True if word[-1] == "n" else False
+
+
+print(is_last_character_n("Aiden"))
 
 
 
