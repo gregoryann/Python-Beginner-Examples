@@ -1,23 +1,38 @@
 if __name__ == "__main__":
     import socket  # Import socket module
 
+    ONE_CONNECTION_ONLY = (
+        True  # Set this to False if you wish to continuously accept connections
+    )
+
+    filename = "mytext.txt"
+    port = 12312  # Reserve a port for your service.
     sock = socket.socket()  # Create a socket object
     host = socket.gethostname()  # Get local machine name
-    port = 12312
+    sock.bind((host, port))  # Bind to the port
+    sock.listen(5)  # Now wait for client connection.
 
-    sock.connect((host, port))
-    sock.send(b"Hello server!")
+    print("Server listening....")
 
-    with open("Received_file", "wb") as out_file:
-        print("File opened")
-        print("Receiving data...")
-        while True:
-            data = sock.recv(1024)
-            print(f"data={data}")
-            if not data:
-                break
-            out_file.write(data)  # Write data to a file
+    while True:
+        conn, addr = sock.accept()  # Establish connection with client.
+        print(f"Got connection from {addr}")
+        data = conn.recv(1024)
+        print(f"Server received {data}")
 
-    print("Successfully got the file")
+        with open(filename, "rb") as in_file:
+            data = in_file.read(1024)
+            while data:
+                conn.send(data)
+                print(f"Sent {data!r}")
+                data = in_file.read(1024)
+
+        print("Done sending")
+        conn.close()
+        if (
+            ONE_CONNECTION_ONLY
+        ):  # This is to make sure that the program doesn't hang while testing
+            break
+
+    sock.shutdown(1)
     sock.close()
-    print("Connection closed")
