@@ -26,7 +26,8 @@ Solution 1
 
 
 
-
+def is_safe_bridge(s):
+	return ' ' not in s
 
 
 
@@ -35,14 +36,21 @@ Solution 2
 """
 
 
-
+def is_safe_bridge(s):
+	x = len(s)
+	y = s.count("#")
+	if x == y:
+		return True
+	else:
+		return False
 
 
 """
 Solution 3
 """
 
-
+def is_safe_bridge(s):
+	return s == s.replace(" ", "")
 
 
 
@@ -50,6 +58,12 @@ Solution 3
 Solution 4
 """
 
+
+def is_safe_bridge(s):
+	for i in s:
+		if i==" ":
+			return False
+	return True
 
 
 
