@@ -26,7 +26,8 @@ See Resources for more information.
 Solution 1
 """
 
-
+def star_number(n):
+    return 6 * n * (n - 1) + 1
 
 
 
@@ -36,7 +37,9 @@ Solution 1
 Solution 2
 """
 
-
+def star_number(n):
+    return 6*n*(n-1)+1
+print(star_number(2) )
 
 
 
