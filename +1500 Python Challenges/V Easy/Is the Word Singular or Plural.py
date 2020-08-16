@@ -32,7 +32,8 @@ Solution 1
 
 
 
-
+def is_plural(word):
+	return word.endswith('s')
 
 
 
@@ -40,7 +41,8 @@ Solution 1
 Solution 2
 """
 
-
+def is_plural(word):
+	return word[-1] == 's'
 
 
 
@@ -48,7 +50,8 @@ Solution 2
 Solution 3
 """
 
-
+def is_plural(word):
+	return word[-1].lower() == "s"
 
 
 
@@ -58,6 +61,15 @@ Solution 4
 
 
 
+def is_plural(word):
+	if(word[-1]=="s"):
+		return True
+	return False
 
 
 
+def is_plural(word):
+	if word.endswith('s'):
+		return True
+	else:
+		return False
