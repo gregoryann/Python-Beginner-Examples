@@ -30,7 +30,8 @@ Solution 1
 """
 
 
-
+def has_spaces(txt):
+	return " " in txt
 
 
 
@@ -39,7 +40,8 @@ Solution 1
 Solution 2
 """
 
-
+def has_spaces(txt):
+	return txt.count(' ')>=1
 
 
 
@@ -47,13 +49,26 @@ Solution 2
 Solution 3
 """
 
-
+def has_spaces(txt):
+	for char in txt:
+		if char == ' ':
+			return True
+	return False
 
 
 
 """
 Solution 4
+
 """
+
+def has_spaces(txt):
+	x = txt.split(" ")
+	x = len(x)
+	if x == 1:
+		return False
+	elif x > 1:
+		return True
 
 
 
