@@ -27,7 +27,8 @@ Solution 1
 """
 
 
-
+def yen_to_usd(yen):
+	return round(yen / 107.5, 2)
 
 
 
@@ -36,7 +37,7 @@ Solution 1
 Solution 2
 """
 
-
+yen_to_usd=lambda y:round(y/107.5,2)
 
 
 
@@ -44,7 +45,8 @@ Solution 2
 Solution 3
 """
 
-
+def yen_to_usd(yen):
+	return round(float(yen)/107.5,2)
 
 
 
