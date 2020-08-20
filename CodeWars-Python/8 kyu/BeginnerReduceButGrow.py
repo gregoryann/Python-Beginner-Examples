@@ -9,6 +9,13 @@ Array will not be empty.
 """
 
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
+
+
 from functools import reduce
 import operator
 

@@ -1,3 +1,9 @@
+
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
 def duck_duck_goose(players, goose):
     return players[(goose % len(players)) - 1] #add .name to end for actual kata
 

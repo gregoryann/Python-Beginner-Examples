@@ -6,6 +6,11 @@ Your function will be tested with pre-made examples as well as random ones.
 **If you can, try writing it in one line of code.**
 """
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
 
 from numpy import prod
 

@@ -8,6 +8,10 @@ Assume that ```[a,b,c,d]``` and the answer are all integers
 Slope: <https://en.wikipedia.org/wiki/Slope>
 """
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
 
 def find_slope(points):
     try:

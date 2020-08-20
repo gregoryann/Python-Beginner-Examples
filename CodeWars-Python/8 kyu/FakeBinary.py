@@ -5,5 +5,10 @@ Given a string of numbers, you should replace any number below 5 with '0' and an
 """
 
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
 def fake_bin(x):
     return ''.join('0' if int(el) < 5 else '1' for el in x)

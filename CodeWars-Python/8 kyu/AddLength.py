@@ -26,5 +26,11 @@ Your task is to write a function that takes a String and returns an Array/list w
 """
 
 
+
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
 def add_length(str_):
     return ["{} {}".format(word, len(word)) for word in str_.split(' ')]

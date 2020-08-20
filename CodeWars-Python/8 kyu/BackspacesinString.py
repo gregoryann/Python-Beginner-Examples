@@ -2,6 +2,12 @@
 ###https://www.codewars.com/kata/5727bb0fe81185ae62000ae3
 
 
+
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
 def clean_string(s):
     '''Returns a string based on s, which has a backspace 
     wherever a hash symbol is found'''

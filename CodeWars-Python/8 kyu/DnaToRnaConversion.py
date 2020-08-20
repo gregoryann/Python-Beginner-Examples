@@ -30,6 +30,11 @@ dna_to_rna("GCAT") //=> "GCAU"
 ```
 """
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
 #function name from task
 def DNAtoRNA(dna):
     return dna.translate(str.maketrans('T', 'U'))

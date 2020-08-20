@@ -16,6 +16,10 @@ getPlanetName(3) # should return 'Earth'
 """
 
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
 def get_planet_name(id_):
     return {
         1: "Mercury",

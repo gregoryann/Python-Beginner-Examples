@@ -1,3 +1,9 @@
+
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
 def contain_all_rots(strng, arr):
     '''Finds if all possible rotations of strng can be found in arr,
        Hope to refactor this soon.'''

@@ -4,6 +4,10 @@ In this kata you will have to write a function called `fuelPrice` (`fuel_price` 
 !Good Luck!
 """
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
 
 def fuelPrice(litres, pricePerLiter):
     discount = min(litres // 2, 5) * .05

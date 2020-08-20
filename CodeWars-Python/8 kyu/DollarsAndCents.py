@@ -11,6 +11,11 @@ Good luck! Your team knows they can count on you!
 """
 
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
 def format_money(amount):
     return "${:.2f}".format(amount)
 

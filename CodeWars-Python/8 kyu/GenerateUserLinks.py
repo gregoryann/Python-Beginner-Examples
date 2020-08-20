@@ -11,6 +11,10 @@ http://www.codewars.com/users/matt%20c
 use this as a reference [encoding](http://www.w3schools.com/tags/ref_urlencode.asp)
 """
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
 
 from urllib.parse import quote
 

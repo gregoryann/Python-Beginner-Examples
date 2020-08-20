@@ -10,5 +10,11 @@ You can assume that all values are integers.
 """
 
 
+
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
 def invert(lst):
     return [-x for x in lst]

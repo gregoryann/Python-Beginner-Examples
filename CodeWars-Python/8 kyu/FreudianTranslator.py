@@ -8,5 +8,11 @@ In this kata, the toFreud() function will take a string as its argument, and ret
 """
 
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
+
 def to_freud(sentence):
     return ' '.join('sex' for _ in sentence.split(' '))

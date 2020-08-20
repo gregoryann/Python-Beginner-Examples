@@ -14,5 +14,11 @@ You have to return the digits of this number within an array in reverse order.
 """
 
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
+
 def digitize(n):
     return list(map(int, str(n)[::-1]))

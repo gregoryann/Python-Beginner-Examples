@@ -6,6 +6,10 @@ If bonus is true, the salary should be multiplied by 10. If bonus is false, the 
 Return the total figure the individual will receive as a string prefixed with '£' (JS and Java) or '$' (C#, C++, Ruby, Clojure, Elixir, PHP and Python).
 """
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
 
 def bonus_time(salary, bonus):
     return "${}".format(salary * (10 if bonus else 1))

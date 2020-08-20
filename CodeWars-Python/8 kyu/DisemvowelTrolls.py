@@ -9,6 +9,13 @@ For example, the string 'This website is for losers LOL!' would become
 Note: For this kata 'y' isn't considered a vowel.
 """
 
+
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
+
 # My Answer
 def disemvowel(string):
     condition = 'aAeEiIoOuU'

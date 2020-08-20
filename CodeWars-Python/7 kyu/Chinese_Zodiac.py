@@ -1,3 +1,8 @@
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
 elements = ['Wood', 'Fire', 'Earth', 'Metal', 'Water']
 animals = ['Rat', 'Ox', 'Tiger', 'Rabbit', 'Dragon', 'Snake', 'Horse', 'Goat', 'Monkey', 'Rooster', 'Dog', 'Pig']
 
