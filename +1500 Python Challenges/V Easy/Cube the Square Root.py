@@ -52,3 +52,7 @@ def cube_squareroot(num):
 
 
 
+def cube_squareroot(num):
+    a=(num**3)**(1/2)
+    return (int(a))
+print(cube_squareroot (1646089))
