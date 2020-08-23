@@ -18,41 +18,58 @@ Test input can be positive or negative.
 
 
 
-
-
-
 """
 Solution 1
 """
 
-
-
-
-
-
+def sort_nums_ascending(lst):
+  return sorted(lst)
 
 """
 Solution 2
 """
 
-
-
-
+def sort_nums_ascending(lst):
+  newlist=list()
+  for i in range(len(lst)):
+    newlist.append(min(lst))
+    lst.remove(min(lst))
+  return newlist
 
 """
 Solution 3
 """
 
-
-
-
+sort_nums_ascending = sorted
 
 """
 Solution 4
 """
 
+def sort_nums_ascending(lst):
+    lst.sort();
+    return(lst);
 
 
+"""
+Solution 5
+"""
+
+def sort_nums_ascending(lst):
+    if lst!=[]:
+      lst.sort()
+      return lst
+    else:
+      return lst
 
 
+"""
+Solution 6
+"""
 
+def sort_nums_ascending(lst):
+    lst.sort()
+    sorted_list = []
+    for num in lst:
+      sorted_list.append(num)
+    return sorted_list
