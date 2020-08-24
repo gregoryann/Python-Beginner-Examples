@@ -54,6 +54,13 @@ if arrays have different lengths, go up to the minimum length and then stop.
 
 """
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
+
+
 
 def lstzip(a, b, fn):
     return [fn(x, y) for x, y in zip(a, b)]
