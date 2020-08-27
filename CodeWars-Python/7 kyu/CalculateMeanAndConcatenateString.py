@@ -18,6 +18,11 @@ In C# and Java the mean return is a double.
 """
 
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
 def mean(lst):
     return [
         sum(int(n) for n in lst if n.isdigit()) / 10.0,

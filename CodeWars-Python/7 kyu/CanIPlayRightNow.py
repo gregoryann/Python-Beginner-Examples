@@ -11,6 +11,12 @@ I will allow Vasya to play at least one hour a day.
 """
 
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
+
 def can_i_play(now_hour, start_hour, end_hour):
     if start_hour < end_hour:
         return start_hour <= now_hour < end_hour
