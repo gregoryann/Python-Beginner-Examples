@@ -31,9 +31,7 @@ Solution 3
 
 length=lambda s:sum(map(bool,s))
 
-"""
-Solution 4
-"""
+
 
 
 
