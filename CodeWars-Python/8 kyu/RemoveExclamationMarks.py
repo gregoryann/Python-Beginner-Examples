@@ -5,5 +5,12 @@ Write function removeExclamationMarks which removes all exclamation marks from a
 """
 
 
+
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
+
 def remove_exclamation_marks(s):
     return s.replace('!', '')

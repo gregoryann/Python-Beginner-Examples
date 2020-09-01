@@ -30,5 +30,12 @@ Don't worry about uppercase vowels.
 """
 
 
+
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
+
 def shortcut(s):
     return ''.join(l for l in s if l not in 'aeiou')

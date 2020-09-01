@@ -11,6 +11,10 @@ Create a function that will return a string that combindes all of the letters of
 
 """
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
 
 def triple_trouble(one, two, three):
     return ''.join(''.join(elem) for elem in zip(one, two, three))

@@ -20,6 +20,11 @@ two_highest("test") should return False
 """
 
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
 def two_highest(lst):
     result = sorted(list(set(lst)), reverse=True)[:2]
     return result if isinstance(lst, list) else False

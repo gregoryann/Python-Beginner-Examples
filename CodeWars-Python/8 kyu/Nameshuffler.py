@@ -15,10 +15,12 @@ name_shuffler('john McClane'); => "McClane john"
 ```elixir
 name_shuffler("john McClane"); => "McClane john"
 ```
-
-
-
 """
+
+
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
 
 
 def name_shuffler(str_):

@@ -18,6 +18,12 @@ welcome = {
 'welsh': 'Croeso'
 }
 
+
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
 def greet(language):
     # return welcome.get(language, 'Welcome')
     return welcome[language]

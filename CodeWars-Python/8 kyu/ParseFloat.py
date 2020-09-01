@@ -6,6 +6,11 @@ Write function `parseFloat` (for Javascript `parseF`) which takes a string and r
 """
 
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
 def parse_float(string):
     try:
         return float(string)
