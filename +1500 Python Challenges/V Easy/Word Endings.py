@@ -47,16 +47,6 @@ Solution 4
 """
 
 def add_ending(lst, ending):
-	for i in lst:
-		j = i+ending
-		lst.append(j)
-	return j
-
-"""
-Solution 5
-"""
-
-def add_ending(lst, ending):
 	for x in range(len(lst)):
 		lst[x] = lst[x] + ending
 	return lst
