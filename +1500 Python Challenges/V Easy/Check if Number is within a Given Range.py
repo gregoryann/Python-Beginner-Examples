@@ -20,39 +20,36 @@ If you're really stuck, unlock solutions in the Solutions tab.
 
 
 
-
-
-
 """
 Solution 1
 """
 
-
-
-
-
-
+def is_in_range(n, r):
+	return r['min'] <= n <= r['max']
 
 """
 Solution 2
 """
 
-
-
-
+def is_in_range(n, r):
+	return( r.get("min") <= n <= r.get("max"))
 
 """
 Solution 3
 """
 
-
-
-
+def is_in_range(n, r):
+	return n >= r['min'] and n <= r['max']
 
 """
 Solution 4
 """
 
+def is_in_range(n, r):
+    if (isinstance(n,int) or isinstance(n,float)):
+        if n >= r['min'] and n <= r['max']:
+            return True
+    return False
 
 
 
