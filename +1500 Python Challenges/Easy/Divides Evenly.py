@@ -22,7 +22,6 @@ a will always be greater than or equal to b.
 
 
 
-
 """
 Solution 1
 """
