@@ -18,6 +18,13 @@ The values of the 0-indexed element in the second list and the n-1th indexed ele
 """
 
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
+
+
 """
 Solution 1
 """

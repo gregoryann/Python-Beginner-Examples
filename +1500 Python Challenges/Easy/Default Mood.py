@@ -14,6 +14,10 @@ Notes
 Check the Resources tab for some helpful information.
 """
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
 
 """
 Solution 1

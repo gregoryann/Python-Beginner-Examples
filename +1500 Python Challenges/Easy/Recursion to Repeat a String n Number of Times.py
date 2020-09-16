@@ -9,26 +9,24 @@ repetition("ab", 3) ➞ "ababab"
 repetition("kiwi", 1) ➞ "kiwi"
 
 repetition("cherry", 2) ➞ "cherrycherry"
+
 Notes
 The second parameter of the function is positive integer
-
 
 """
 
 
-
-
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
 
 
 """
 Solution 1
 """
 
-
 def repetition(txt, n):
 	return '' if not n else txt + repetition(txt, n-1)
-
-
 
 
 """
@@ -37,8 +35,6 @@ Solution 2
 
 def repetition(txt, n):
 	return  txt*n
-
-
 
 """
 Solution 3
@@ -55,8 +51,6 @@ def repetition(t,n):
 """
 Solution 4
 """
-
-
 
 def repetition(txt, n, c = 0):
 	if c<n:

@@ -1,5 +1,4 @@
 """
-
 Return the Last Element in a List
 Create a function that accepts a list and returns the last item in the list. The list can be either homogeneous or heterogeneous.
 
@@ -11,15 +10,17 @@ get_last_item(["cat", "dog", "duck"]) ➞ "duck"
 get_last_item([True, False, True]) ➞ True
 
 get_last_item([7, "String", False]) ➞ False
+
 Notes
 Don't forget to return the result.
 If you get stuck on a challenge, find help in the Resources tab.
 If you're really stuck, unlock solutions in the Solutions tab.
-
-
 """
 
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
 
 
 
@@ -28,11 +29,8 @@ If you're really stuck, unlock solutions in the Solutions tab.
 Solution 1
 """
 
-
 def get_last_item(lst):
   return lst[-1]
-
-
 
 
 """

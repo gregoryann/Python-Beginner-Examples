@@ -9,18 +9,17 @@ comp("AB", "CD") ➞ True
 comp("ABC", "DE") ➞ False
 
 comp("hello", "edabit") ➞ False
+
 Notes
 Don't forget to return the result.
 If you get stuck on a challenge, find help in the Resources tab.
 If you're really stuck, unlock solutions in the Solutions tab.
-
-
 """
 
 
-
-
-
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
 
 """
 Solution 1

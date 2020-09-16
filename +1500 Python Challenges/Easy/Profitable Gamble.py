@@ -1,6 +1,4 @@
 """
-
-
 Profitable Gamble
 Create a function that takes in three arguments (prob, prize, pay) and returns true if prob * prize > pay; otherwise return false.
 
@@ -18,7 +16,9 @@ A profitable gamble is a game that yields a positive net profit, where net profi
 """
 
 
-
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
 
 
 

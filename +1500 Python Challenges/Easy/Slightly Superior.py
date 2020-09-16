@@ -1,6 +1,4 @@
 """
-
-
 Slightly Superior
 You will be given two extremely similar lists, but exactly one of the items in a list will be valued slightly higher than its counterpart (which means that evaluating the value > the other value will return True).
 
@@ -20,15 +18,16 @@ is_first_superior(["zebra", "ostrich", "whale"], ["ant", "ostrich", "whale"]) �
 is_first_superior([1, 2, 3, 4], [1, 2, 4, 4]) ➞ False
 
 is_first_superior([True, 10, "zebra"], [True, 10, "zebra"]) ➞ False
+
 Notes
 All values and their counterparts will always be the same data type.
 If the two lists are the same, return False.
 
-
 """
 
-
-
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
 
 
 
@@ -36,11 +35,8 @@ If the two lists are the same, return False.
 Solution 1
 """
 
-
 def is_first_superior(lst1, lst2):
 	return lst1 > lst2
-
-
 
 
 """
@@ -52,23 +48,5 @@ def is_first_superior(lst1, lst2):
         if lst1[i] > lst2[i]:
             return True
     return False
-
-
-
-"""
-Solution 3
-"""
-
-
-
-
-
-"""
-Solution 4
-"""
-
-
-
-
 
 

@@ -1,6 +1,4 @@
 """
-
-
 Is the String Empty?
 Create a function that returns True if a string is empty and False otherwise.
 
@@ -19,6 +17,9 @@ If you're really stuck, unlock solutions in the Solutions tab.
 """
 
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
 
 
 

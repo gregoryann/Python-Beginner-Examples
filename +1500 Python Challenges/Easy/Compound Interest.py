@@ -21,6 +21,11 @@ Notes
 See the Resource for the interest formula and more information.
 """
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
 
 """
 Solution 1

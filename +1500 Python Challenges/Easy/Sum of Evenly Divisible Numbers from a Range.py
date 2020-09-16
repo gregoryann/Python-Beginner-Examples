@@ -18,6 +18,12 @@ Return 0 if there is no number between a and b that can be evenly divided by c.
 """
 
 
+
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
 """
 Solution 1
 """
@@ -41,7 +47,6 @@ def evenly_divisible(a, b, c):
 	    if i%c == 0:
 		    s += i
 	return s
-
 
 """
 Solution 4

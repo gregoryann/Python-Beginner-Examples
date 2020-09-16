@@ -8,14 +8,16 @@ half_quarter_eighth(6) ➞ [3, 1.5, 0.75]
 half_quarter_eighth(22) ➞ [11, 5.5, 2.75]
 
 half_quarter_eighth(25) ➞ [12.5, 6.25, 3.125]
+
 Notes
 The order of the list is: half, quarter, eighth.
-
-
 
 """
 
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
 
 
 

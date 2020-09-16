@@ -19,6 +19,12 @@ You can assume numbers and punctuation symbols won't be included in test cases. 
 """
 
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
+
 """
 Solution 1
 """
