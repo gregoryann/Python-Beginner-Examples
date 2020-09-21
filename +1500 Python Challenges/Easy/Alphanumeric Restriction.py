@@ -1,5 +1,4 @@
 """
-
 Alphanumeric Restriction
 
 Create a function that returns True if the given string has any of the following:
