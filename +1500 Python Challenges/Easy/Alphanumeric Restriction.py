@@ -21,6 +21,15 @@ Any string that contains spaces or is empty should return False.
 """
 
 
+
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
+
+
+
 """
 Solution 1
 """

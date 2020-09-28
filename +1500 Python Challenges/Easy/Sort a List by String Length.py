@@ -19,6 +19,17 @@ All test cases contain lists with strings of different lengths, so you won't hav
 
 
 
+
+
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
+
+
+
+
 """
 Solution 1
 """

@@ -11,6 +11,14 @@ ascii_capitalize("THE LITTLE MERMAID") ➞ "THe LiTTLe meRmaiD"
 ascii_capitalize("Oh what a beautiful morning.") ➞ "oH wHaT a BeauTiFuL moRNiNg."
 """
 
+
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
+
+
 """
 Solution 1
 """

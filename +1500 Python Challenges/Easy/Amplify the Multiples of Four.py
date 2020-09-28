@@ -21,6 +21,12 @@ To perform this problem with its intended purpose, try doing it with list compre
 
 
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
+
 """
 Solution 1
 """

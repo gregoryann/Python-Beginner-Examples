@@ -15,6 +15,13 @@ There will always only be one integer that appears an odd number of times.
 """
 
 
+
+
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
 """
 Solution 1
 """

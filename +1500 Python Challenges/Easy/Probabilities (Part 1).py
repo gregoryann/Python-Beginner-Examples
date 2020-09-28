@@ -14,6 +14,15 @@ Precent probability of event = 100 * (num of favourable outcomes) / (total num o
 """
 
 
+
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
+
+
+
 """
 Solution 1
 """

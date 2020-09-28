@@ -17,6 +17,16 @@ Lexicographically last: the permutation of the string that would appear last in 
 """
 
 
+
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
+
+
+
+
 """
 Solution 1
 """

@@ -39,6 +39,16 @@ The asterisk may be in the array, however, it must be inside the box, if it exis
 """
 
 
+
+
+
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
+
+
 """
 Solution 1
 """

@@ -9,10 +9,9 @@ is_same_num(4, 8) ➞ False
 is_same_num(2, 2) ➞  True
 
 is_same_num(2, "2") ➞ False
+
 Notes
 Don't forget to return the result.
-
-
 """
 
 

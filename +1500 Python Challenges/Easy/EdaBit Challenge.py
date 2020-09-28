@@ -16,6 +16,13 @@ In case the number 0 happens to be in the range, return "EdaBit" as well.
 
 
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
+
+
 """
 Solution 1
 """

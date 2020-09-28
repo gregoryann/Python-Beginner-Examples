@@ -14,6 +14,14 @@ You don't need to actually calculate the factors to solve this problem.
 Think about why a number would have an odd number of factors.
 """
 
+
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
+
+
 """
 Solution 1
 """

@@ -45,6 +45,15 @@ As in the examples, the size of the matrices will vary (but they will always be 
 
 
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
+
+
+
+
 """
 Solution 1
 """

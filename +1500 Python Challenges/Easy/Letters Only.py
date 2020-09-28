@@ -14,6 +14,15 @@ See the Resources section for more information on Python string methods.
 """
 
 
+
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
+
+
+
 """
 Solution 1
 """

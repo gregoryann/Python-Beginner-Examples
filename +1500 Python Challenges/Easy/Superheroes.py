@@ -17,6 +17,15 @@ Wonder-Woman, Catwoman and Invisible-Woman are superheroines.
 """
 
 
+
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
+
+
+
 """
 Solution 1
 """

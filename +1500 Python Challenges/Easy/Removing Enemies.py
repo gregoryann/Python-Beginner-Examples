@@ -14,6 +14,13 @@ All names to be removed will be in the enemies list; simply return the list, no 
 """
 
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
+
+
 """
 Solution 1
 """

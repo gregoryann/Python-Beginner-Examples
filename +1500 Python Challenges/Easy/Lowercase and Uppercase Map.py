@@ -15,6 +15,14 @@ All of the letters in the input list will always be lowercase.
 """
 
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
+
+
+
 """
 Solution 1
 """

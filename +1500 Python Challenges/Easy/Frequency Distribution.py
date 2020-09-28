@@ -17,6 +17,15 @@ If given an empty list, return an empty object (see example #4).
 The object should be in the same order as in the input list.
 """
 
+
+
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
+
+
 """
 Solution 1
 """

@@ -19,6 +19,15 @@ Given an out of bounds parameter (e.g. a list is of size k), and you are asked t
 """
 
 
+
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
+
+
+
 """
 Solution 1
 """

@@ -15,6 +15,15 @@ Test cases will always have exactly one unique number while all others are the s
 """
 
 
+
+
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
+
+
 """
 Solution 1
 """

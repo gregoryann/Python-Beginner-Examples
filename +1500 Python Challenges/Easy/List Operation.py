@@ -17,6 +17,14 @@ Return an empty list if there are no numbers that are divisible by n.
 
 
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
+
+
+
 """
 Solution 1
 """

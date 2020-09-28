@@ -42,6 +42,14 @@ Here, each tile is represented as an dictionary with two keys: tile and score.
 """
 
 
+
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
+
+
 """
 Solution 1
 """

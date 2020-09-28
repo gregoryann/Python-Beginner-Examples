@@ -20,6 +20,13 @@ If there are multiple items with the same value, remove item with lower index (3
 
 
 
+
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
+
 """
 Solution 1
 """

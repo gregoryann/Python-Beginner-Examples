@@ -18,6 +18,11 @@ If you're really stuck, unlock solutions in the Solutions tab.
 """
 
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
 
 """
 Solution 1

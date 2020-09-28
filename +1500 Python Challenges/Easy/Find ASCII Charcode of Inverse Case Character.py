@@ -18,6 +18,12 @@ Not all inputs will have a counterpart (e.g. numbers), in which case return the 
 """
 
 
+#############################################################
+#                        MY SOLUTIONS                       #
+#############################################################
+
+
+
 """
 Solution 1
 """
